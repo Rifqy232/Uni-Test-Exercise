@@ -12,7 +12,7 @@ class CuboidModel {
         val wh = width * height
         val lh = height * length
 
-        return 2 * (wl + wh + lh)
+        return 4 * (wl + wh + lh)
     }
 
     fun getCircumference(): Double = 4 * (width + height + length)
